@@ -1,0 +1,190 @@
+/* WALIDAINA.CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Exo 2, sans-serif;
+}
+
+/* Styles for specific pages */
+
+/* Visi & Misi */
+#logo .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Home */
+body {
+  background-color: #EBDEF0;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.banner {
+  background-image: url(Banner.png);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn-donate {
+  display: inline-block;
+  background-color: #4A235A;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-donate:hover {
+  background-color: #d32f2f;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Styles for specific pages */
+
+/* Visi & Misi */
+#about-us .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Latar Belakang */
+#donation-form .content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#donation-form form {
+  text-align: center;
+}
+
+#donation-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#donation-form input,
+#donation-form textarea {
+  width: 100%;
+}
+
+.btn-submit {
+  background-color: #4caf50;
+}
+
+.btn-submit:hover {
+  background-color: #45a049;
+}
+
+/* Sumbangan */
+#contact .content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact form {
+  text-align: left;
+}
+
+.payment {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.payment h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.payment p {
+  margin-bottom: 10px;
+}
+
+.payment ul {
+  list-style: none;
+}
+
+.payment li {
+  margin-bottom: 5px;
+}
+
+.payment li a {
+  display: block;
+  padding: 10px;
+  background-color: #e3e3e3;
+  text-decoration: none;
+  color: #333333;
+  border-radius: 5px;
+}
+
+.payment li a:hover {
+  background-color: #cccccc;
+}
